@@ -1,0 +1,16 @@
+mediapipe>=0.10.30
+
+# OpenCV 5.0 returns all-black frames from AVFoundation on macOS: the camera
+# opens, reports the right resolution, and hands back zeros with no error.
+# 4.x works. Do not relax this pin without testing capture on macOS first.
+opencv-python>=4.10,<5
+opencv-contrib-python>=4.10,<5
+
+numpy>=1.26
+torch>=2.4
+tqdm>=4.66
+streamlit>=1.38
+
+# testing and evaluation
+pytest>=8.0
+sacrebleu>=2.4
