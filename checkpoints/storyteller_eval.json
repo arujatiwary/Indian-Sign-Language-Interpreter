@@ -1,0 +1,233 @@
+[
+  {
+    "glosses": [
+      "good_morning",
+      "teacher"
+    ],
+    "sentence": "Good morning, teacher.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "i",
+      "happy"
+    ],
+    "sentence": "I, happy.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "brother",
+      "dog",
+      "black"
+    ],
+    "sentence": "Brother, dog, black.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "monday",
+      "i",
+      "house"
+    ],
+    "sentence": "Monday, i, house.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "father",
+      "priest"
+    ],
+    "sentence": "Father, priest.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "girl",
+      "boy",
+      "happy"
+    ],
+    "sentence": "Girl, boy, happy.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "dog",
+      "big_large"
+    ],
+    "sentence": "Dog, big large.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "bird",
+      "white"
+    ],
+    "sentence": "Bird, white.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "i",
+      "store_or_shop"
+    ],
+    "sentence": "I, store or shop.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "teacher",
+      "good"
+    ],
+    "sentence": "Teacher, good.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "cow",
+      "new"
+    ],
+    "sentence": "Cow, new.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "hello",
+      "father"
+    ],
+    "sentence": "Hello, father.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "you_(plural)",
+      "good"
+    ],
+    "sentence": "You (plural), good.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "thank_you",
+      "teacher"
+    ],
+    "sentence": "Thank you, teacher.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "brother",
+      "house",
+      "red"
+    ],
+    "sentence": "Brother, house, red.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')"
+  },
+  {
+    "glosses": [
+      "good_morning",
+      "teacher"
+    ],
+    "sentence": "Good morning, teacher.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "i",
+      "happy"
+    ],
+    "sentence": "I, happy.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "thank_you",
+      "teacher"
+    ],
+    "sentence": "Thank you, teacher.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "monday",
+      "i",
+      "house"
+    ],
+    "sentence": "Monday, i, house.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "brother",
+      "dog",
+      "black"
+    ],
+    "sentence": "Brother, dog, black.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "dog",
+      "big_large"
+    ],
+    "sentence": "Dog, big large.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "hello",
+      "father"
+    ],
+    "sentence": "Hello, father.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "father",
+      "priest"
+    ],
+    "sentence": "Father, priest.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  },
+  {
+    "glosses": [
+      "i",
+      "happy"
+    ],
+    "sentence": "I, happy.",
+    "invented": [],
+    "api_error": "RuntimeError('no API key configured')",
+    "in_story": true
+  }
+]

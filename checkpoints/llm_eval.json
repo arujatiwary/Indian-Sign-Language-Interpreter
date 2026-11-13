@@ -1,0 +1,557 @@
+{
+  "config": {
+    "provider": "gemini",
+    "model_requested": null,
+    "model_served": "gemini-3.1-flash-lite",
+    "temperature": 0.2,
+    "repeats": 1,
+    "references": "draft",
+    "similarity_reportable": false
+  },
+  "faithfulness": {
+    "phrases": 24,
+    "fully_faithful": 24,
+    "fully_faithful_rate": 1.0,
+    "invented_entities": 0,
+    "invented_per_phrase": 0.0,
+    "dropped_glosses": 0,
+    "gloss_coverage": 1.0,
+    "supplied_verbs": 0
+  },
+  "similarity": {
+    "bleu": 97.61,
+    "chrf": 98.72,
+    "n": 24,
+    "bleu_detail": "BLEU = 97.61 98.4/98.1/97.5/96.4 (BP = 1.000 ratio = 1.000 hyp_len = 128 ref_len = 128)"
+  },
+  "exact_match": 0.917,
+  "latency": {
+    "mean_ms": 4507.8,
+    "median_ms": 1753.1,
+    "p90_ms": 12776.7,
+    "max_ms": 28952.6,
+    "n": 24
+  },
+  "reliability": {
+    "api_failures": 0,
+    "calls": 24,
+    "fallback_rate": 0.0
+  },
+  "records": [
+    {
+      "glosses": [
+        "good_morning",
+        "teacher"
+      ],
+      "sentence": "Good morning, teacher.",
+      "refs": [
+        "Good morning, teacher.",
+        "Good morning teacher."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "i",
+        "happy"
+      ],
+      "sentence": "I am happy.",
+      "refs": [
+        "I am happy.",
+        "I'm happy."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "brother",
+        "dog",
+        "black"
+      ],
+      "sentence": "My brother's dog is black.",
+      "refs": [
+        "My brother's dog is black.",
+        "My brother has a black dog."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "monday",
+        "i",
+        "house"
+      ],
+      "sentence": "On Monday I was at the house.",
+      "refs": [
+        "On Monday I was at the house.",
+        "I was at home on Monday."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "father",
+        "priest"
+      ],
+      "sentence": "The father is a priest.",
+      "refs": [
+        "My father is a priest.",
+        "Father is a priest."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "girl",
+        "boy",
+        "happy"
+      ],
+      "sentence": "The girl and the boy are happy.",
+      "refs": [
+        "The girl and the boy are happy.",
+        "The boy and girl are happy."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "dog",
+        "big_large"
+      ],
+      "sentence": "The dog is large.",
+      "refs": [
+        "The dog is big.",
+        "The dog is large."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "bird",
+        "white"
+      ],
+      "sentence": "The bird is white.",
+      "refs": [
+        "The bird is white.",
+        "It is a white bird."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "i",
+        "store_or_shop"
+      ],
+      "sentence": "I am at the store.",
+      "refs": [
+        "I went to the shop.",
+        "I am at the store."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "teacher",
+        "good"
+      ],
+      "sentence": "The teacher is good.",
+      "refs": [
+        "The teacher is good.",
+        "My teacher is good."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "cow",
+        "new"
+      ],
+      "sentence": "The cow is new.",
+      "refs": [
+        "The cow is new.",
+        "It is a new cow."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "hello",
+        "father"
+      ],
+      "sentence": "Hello, father.",
+      "refs": [
+        "Hello, father.",
+        "Hello father."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "you_(plural)",
+        "good"
+      ],
+      "sentence": "You are good.",
+      "refs": [
+        "You are good.",
+        "You all are good."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "thank_you",
+        "teacher"
+      ],
+      "sentence": "Thank you, teacher.",
+      "refs": [
+        "Thank you, teacher.",
+        "Thank you teacher."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "brother",
+        "house",
+        "red"
+      ],
+      "sentence": "My brother's house is red.",
+      "refs": [
+        "My brother's house is red.",
+        "My brother has a red house."
+      ],
+      "context": "",
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "good_morning",
+        "teacher"
+      ],
+      "sentence": "Good morning, teacher.",
+      "refs": [
+        "Good morning, teacher."
+      ],
+      "context": "",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "i",
+        "happy"
+      ],
+      "sentence": "I am happy.",
+      "refs": [
+        "I am happy.",
+        "I am happy to be here."
+      ],
+      "context": "Good morning, teacher.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "thank_you",
+        "teacher"
+      ],
+      "sentence": "Thank you, teacher.",
+      "refs": [
+        "Thank you, teacher."
+      ],
+      "context": "Good morning, teacher. I am happy.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "monday",
+        "i",
+        "house"
+      ],
+      "sentence": "On Monday I was at the house.",
+      "refs": [
+        "On Monday I was at the house."
+      ],
+      "context": "",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "brother",
+        "dog",
+        "black"
+      ],
+      "sentence": "My brother's dog is black.",
+      "refs": [
+        "My brother's dog is black.",
+        "My brother's dog there is black."
+      ],
+      "context": "On Monday I was at the house.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "dog",
+        "big_large"
+      ],
+      "sentence": "The dog is big.",
+      "refs": [
+        "The dog is big.",
+        "It is a big dog."
+      ],
+      "context": "On Monday I was at the house. My brother's dog is black.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "hello",
+        "father"
+      ],
+      "sentence": "Hello, father.",
+      "refs": [
+        "Hello, father."
+      ],
+      "context": "",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "father",
+        "priest"
+      ],
+      "sentence": "Father is a priest.",
+      "refs": [
+        "My father is a priest.",
+        "He is a priest."
+      ],
+      "context": "Hello, father.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    },
+    {
+      "glosses": [
+        "i",
+        "happy"
+      ],
+      "sentence": "I am happy.",
+      "refs": [
+        "I am happy.",
+        "I am happy about that."
+      ],
+      "context": "Hello, father. Father is a priest.",
+      "in_story": true,
+      "supplied_verbs": [],
+      "invented_entities": [],
+      "dropped": [],
+      "n_supplied_verbs": 0,
+      "n_invented_entities": 0,
+      "n_dropped": 0,
+      "coverage": 1.0,
+      "faithful": true,
+      "api_error": null
+    }
+  ]
+}
