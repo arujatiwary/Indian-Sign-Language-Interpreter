@@ -1,0 +1,2 @@
+# one sign per line, taken from --list-only output
+# leading numbers and case are handled for you

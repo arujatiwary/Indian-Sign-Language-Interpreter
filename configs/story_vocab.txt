@@ -1,0 +1,50 @@
+# Demo vocabulary, 25 signs.
+#
+# Chosen for what these words can say together, not for how well they scored.
+# Greetings open a story, pronouns and people give it subjects, places and
+# animals give it objects, adjectives and colours describe them, and the two
+# time words anchor when it happened.
+#
+# INCLUDE has no verbs, so the language model supplies connectives. The rule:
+# it may add grammatical glue but never a new entity, place or time.
+
+# greetings
+hello
+good_morning
+thank_you
+
+# pronouns
+i
+you_(plural)
+
+# people
+father
+brother
+teacher
+priest
+girl
+boy
+
+# places
+house
+store_or_shop
+court
+
+# animals
+dog
+bird
+cow
+
+# adjectives
+happy
+good
+new
+big_large
+
+# colours
+black
+red
+white
+
+# time
+monday
