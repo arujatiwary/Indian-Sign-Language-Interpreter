@@ -1,0 +1,79 @@
+{
+  "video": "demo/story.mp4",
+  "frames": 555,
+  "fps": 25,
+  "seconds": 22.2,
+  "expected_phrases": [
+    [
+      "father",
+      "cow",
+      "window"
+    ],
+    [
+      "brother",
+      "t-shirt"
+    ],
+    [
+      "brother",
+      "train_ticket"
+    ]
+  ],
+  "clips": [
+    {
+      "phrase": 0,
+      "sign": "father",
+      "src": "data/INCLUDE/People/61. Father/MVI_4223.MOV",
+      "hand_rate": 0.906,
+      "start_frame": 0,
+      "end_frame": 63
+    },
+    {
+      "phrase": 0,
+      "sign": "cow",
+      "src": "data/INCLUDE/Animals/5. Cow/MVI_4160.MOV",
+      "hand_rate": 0.781,
+      "start_frame": 69,
+      "end_frame": 126
+    },
+    {
+      "phrase": 0,
+      "sign": "window",
+      "src": "data/INCLUDE/Home/28. Window/MVI_4364.MOV",
+      "hand_rate": 0.812,
+      "start_frame": 132,
+      "end_frame": 219
+    },
+    {
+      "phrase": 1,
+      "sign": "brother",
+      "src": "data/INCLUDE/People/66. Brother/MVI_4230.MOV",
+      "hand_rate": 0.969,
+      "start_frame": 247,
+      "end_frame": 298
+    },
+    {
+      "phrase": 1,
+      "sign": "t-shirt",
+      "src": "data/INCLUDE/Clothes/42. T-Shirt/MVI_4202.MOV",
+      "hand_rate": 0.75,
+      "start_frame": 304,
+      "end_frame": 365
+    },
+    {
+      "phrase": 2,
+      "sign": "brother",
+      "src": "data/INCLUDE/People/66. Brother/MVI_4230.MOV",
+      "hand_rate": 0.969,
+      "start_frame": 393,
+      "end_frame": 444
+    },
+    {
+      "phrase": 2,
+      "sign": "train_ticket",
+      "src": "data/INCLUDE/Means_of_Transportation/16. train ticket/MVI_4191.MOV",
+      "hand_rate": 0.844,
+      "start_frame": 450,
+      "end_frame": 527
+    }
+  ]
+}

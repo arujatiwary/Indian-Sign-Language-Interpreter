@@ -1,0 +1,23 @@
+{
+  "phrases": [
+    [
+      "father",
+      "cow",
+      "window"
+    ],
+    [
+      "brother",
+      "t-shirt"
+    ],
+    [
+      "brother",
+      "train_ticket"
+    ]
+  ],
+  "paragraph": "Father is at the window with the cow. My brother is wearing a t-shirt. He also has a train ticket.",
+  "model": "gemini-3.1-flash-lite",
+  "temperature": 0.2,
+  "min_confidence": 0.75,
+  "stable_frames": 4,
+  "predict_every": 3
+}
